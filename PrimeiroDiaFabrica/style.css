@@ -1,0 +1,69 @@
+:root {
+    --cor-preta: #000000;
+    --cor-branca: #FFFFFF;
+    --cor-cinza: #353535;
+    --cor-verde: #2FB23C;
+    --cor-borda: #C5C2C2;
+    --fonte-principal:'Roboto';
+    --fonte-botao: 'Poppins'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
+    font-family: var(--fonte-principal);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.cadastro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagem{
+    width: 22.5rem;
+    height: 17.375rem;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+
+.email{
+    background-color: var(--cor-cinza);
+    width: 29.125rem;
+    height: 3.563rem;
+    border: var(--cor-borda) solid 0.1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    
+}
+
+.senha{
+    background-color: var(--cor-cinza);
+    color: var(--cor-branca);
+    width: 29.125rem;
+    height: 3.563rem;
+    border: var(--cor-borda) solid 0.1rem;
+    border-radius: 0.25rem;
+}
+
+.botao{
+    background-color: var(--cor-verde);
+    border-radius: 0.625rem;
+    padding: 1.2rem 4rem;
+    margin: 3rem 9rem;
+    color: var(--cor-branca);
+    font-family: var(--fonte-botao);
+    font-size: 1.3rem;
+    font-weight: 500;
+
+
+}
